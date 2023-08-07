@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #b8dde4;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  padding: 50px 0;
+}
+
+.pokemon__img {
+  width: 970px;
+  margin: 0 auto;
+  
+}
+
+.pokemon__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  margin: 300px auto;
+}
+
+.pokemon__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.pokemon__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 505px;
+  width: 100%;
+  padding: 25px 0;
+  font-size: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 63px 66px rgba(0, 0, 0, 0.1);
+  background: rgb(238,215,225);
+  background: radial-gradient(circle, rgba(238,215,225,1) 0%, rgba(251,230,230,1) 70%, rgba(198,204,212,1) 78%);
+}
+
+.pokemon-img {
+  max-width: 1000%;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: transparent;
+  border: 2px solid rgba(168, 18, 43, 0.637);
+  border-radius: 50%;
+}
+
+.pokemon__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #f5f5f5;;
+  background-color: #b8dde4;
+  border-radius: 20px;
+  text-decoration-line: none;
+}
+
+.items__weight,
+.items__height,
+.items__egg,
+.items__spawn,
+.items__name {
+  color: rgba(225, 229, 234, 0.623);
+  
+}
+.item__egg,
+.item__height,
+.item__weight,
+.item__spawn
+ {
+  font-size: 25px;
+  color: rgb(87, 68, 18);
+}
+.item__name {
+  font-size: 42px;
+  color: rgb(172, 62, 19);
+}
+
+
+
+.input {
+  margin:  auto;
+  width: 700px;
+  padding-left: 20px;
+  height: 60px;
+  font-size: 36px;
+  border: none;
+  border-radius: 10px;
+}
