@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-item{
+    width: 280px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}

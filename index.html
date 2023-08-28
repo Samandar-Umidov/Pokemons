@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/main.css">
   <title>Pokemons</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/main.css">
+
 </head>
 <body>
   
@@ -20,11 +22,24 @@
         <ul class="pokemon__list">
                     <!-- <li class="pokemon__items item">
             <img class="pokemon-img" src="img/Pokemon.png" alt="pokemon"/>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Launch demo modal
+            </button>
             <p class="item__weight">Weight</p>
             <p class="item__height">Height</p>
             <p class="item__egg">Egg</p>
             <p class="item__spawn">Spawn time</p>
             <p class="item__name">Name</p>
+            <button class="more-btn" type="submit"></button>
+          </li>
+          <li class="pokemon__item items">
+            <img src="img/Pokemon.png" alt="pokemon" class="pokemon-img" />
+            <p class="item__weight">Weight</p>
+            <p class="item__height">Height</p>
+            <p class="item__egg">Egg</p>
+            <p class="item__spawn">Spawn time</p>
+            <p class="item__name">Name</p>
+            <button class="more-btn" type="submit"></button>
           </li>
           <li class="pokemon__item items">
             <img src="img/Pokemon.png" alt="pokemon" class="pokemon-img" />
@@ -41,6 +56,7 @@
             <p class="item__egg">Egg</p>
             <p class="item__spawn">Spawn time</p>
             <p class="item__name">Name</p>
+            <button class="more-btn" type="submit"></button>
           </li>
           <li class="pokemon__item items">
             <img src="img/Pokemon.png" alt="pokemon" class="pokemon-img" />
@@ -49,21 +65,32 @@
             <p class="item__egg">Egg</p>
             <p class="item__spawn">Spawn time</p>
             <p class="item__name">Name</p>
-          </li>
-          <li class="pokemon__item items">
-            <img src="img/Pokemon.png" alt="pokemon" class="pokemon-img" />
-            <p class="item__weight">Weight</p>
-            <p class="item__height">Height</p>
-            <p class="item__egg">Egg</p>
-            <p class="item__spawn">Spawn time</p>
-            <p class="item__name">Name</p>
+            <button class="more-btn" type="submit"></button>
           </li> -->
         </ul>
       </div>
     </div>
+  </div>   
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+          
+        </div>
+      </div>
+    </div>
   </div>
-  
-  
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/pokemon.js"></script>
   <script src="/js/main.js"></script>
 </body>
